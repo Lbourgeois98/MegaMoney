@@ -31,20 +31,20 @@
       background: rgba(0, 0, 0, 0.9);
       border: 2px solid #ff00ff;
       border-radius: 15px;
-      padding: 2rem;
+      padding: 2.5rem;
       text-align: center;
       width: 100%;
-      max-width: 400px;
+      max-width: 450px;
       box-shadow: 0 0 30px #ff00ff, 0 0 60px #00ccff;
     }
 
     img {
       width: 100%;
-      max-width: 250px;
+      max-width: 300px;
       height: auto;
       border-radius: 10px;
       box-shadow: 0 0 20px #ff66ff;
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
       transition: transform 0.3s ease;
     }
 
@@ -53,31 +53,31 @@
     }
 
     h2 {
-      font-size: 1.4rem;
-      margin-bottom: 1.2rem;
+      font-size: 1.6rem;
+      margin-bottom: 1.5rem;
       text-shadow: 0 0 10px #00ffff;
     }
 
     input[type="password"] {
-      padding: 12px;
-      font-size: 1rem;
+      padding: 16px;
+      font-size: 1.2rem;
       width: 100%;
       border: none;
-      border-radius: 5px;
-      margin-bottom: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1.2rem;
       box-sizing: border-box;
       background-color: #1a001a;
       color: #ff66ff;
-      box-shadow: inset 0 0 8px #ff66ff;
+      box-shadow: inset 0 0 10px #ff66ff;
     }
 
     button {
-      padding: 12px 20px;
-      font-size: 1rem;
+      padding: 16px;
+      font-size: 1.2rem;
       background: linear-gradient(to right, #ff66ff, #00ccff);
       color: #fff;
       border: none;
-      border-radius: 5px;
+      border-radius: 8px;
       cursor: pointer;
       transition: all 0.3s ease;
       width: 100%;
@@ -92,17 +92,30 @@
     .error {
       color: #ff4d4d;
       margin-top: 1rem;
-      font-size: 0.9rem;
+      font-size: 1rem;
       text-shadow: 0 0 5px #ff4d4d;
     }
 
-    @media (max-width: 480px) {
+    /* MOBILE-SPECIFIC STYLES */
+    @media (max-width: 600px) {
       .container {
-        padding: 1.5rem;
+        padding: 2rem;
+        max-width: 95%;
       }
 
       h2 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+        margin-bottom: 1.2rem;
+      }
+
+      input[type="password"],
+      button {
+        font-size: 1.1rem;
+        padding: 14px;
+      }
+
+      .error {
+        font-size: 0.95rem;
       }
     }
   </style>
@@ -110,7 +123,7 @@
 <body>
   <div class="container">
     <!-- Your Logo -->
-    <img src="https://res.cloudinary.com/dhg2r4rcn/image/upload/v1747161719/Messenger_creation_626141470460571_nj06k1.jpg "
+    <img src="https://res.cloudinary.com/dhg2r4rcn/image/upload/v1747430341/Untitled_design_20250516_151808_0000_xclprb.png "
          alt="Mega Money Logo"
          loading="lazy">
 
